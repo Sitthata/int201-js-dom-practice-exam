@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section id="rainbow" class="p-min">
+      <h1>Rainbow Button</h1>
+      <p>Change my background color!</p>
+      <button id="color-btn">CLICK ME</button>
+    </section>
+
+    <section id="backpack" class="p-min">
+      <h1>Sally's Backpack</h1>
+      <p>Help Sally pack her item to her picnic!</p>
+      <p class="error"></p>
+      <input type="text" id="item-input" placeholder="Enter item" class="input">
+      <button id="add-btn">add</button>
+      <div id="listItem">
+        <ul>
+
+        </ul>
+      </div>
+    </section>
+
+    <section id="input-list" class="p-min">
+      <h1>Please enter your information</h1>
+      <form class="flex-col form">
+        <p class="error"></p>
+        <input type="text" placeholder="username" class="input">
+        <input type="text" placeholder="email" class="input">
+        <input type="text" placeholder="password" class="input">
+        <button type="submit" id="submit-btn">Submit</button>
+      </form>
+    </section>
+
+    <script type="module" src="/script/main.js"></script>
+  </body>
+</html>
